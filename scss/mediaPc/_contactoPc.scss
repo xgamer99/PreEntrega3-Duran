@@ -1,0 +1,12 @@
+//Import
+@import "../base/mixin";
+
+.redes{
+    height: 81vh;
+    div{
+        .lista{
+            @include flex(space-evenly);
+            margin-top: 35px;
+        }
+    }
+}

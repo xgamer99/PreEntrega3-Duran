@@ -1,0 +1,55 @@
+//import
+@import "../base/variables";
+
+//Parametros generales de todos los html
+/*Parametros generales de todos los html*/
+body{
+    background-image: url(../recursos/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    cursor: url(../recursos/img/cursores/default.cur), auto;
+}
+.cambioCursorLink{
+    cursor: url(../recursos/img/cursores/click.cur), pointer;
+}
+.menuColor{
+    background-color: $colorElegidoUno;
+}
+.menuColorSin{
+    background-color: $colorElegidoTres;
+}
+header{
+    .logo{ 
+        img{
+            height: 80%;
+            width: 80%;
+            filter: drop-shadow(0 0 2px blue);
+        }
+    }
+    nav{
+        text-align: center;
+    }
+}
+main{
+    height: auto;
+    background-color: $colorElegidoDos;
+    border-radius: 10px;
+    .list-group-flush{
+        .list-group-item{
+            color: white;
+            background-color: $colorTransparente;
+        } 
+    }
+}
+footer{
+    ul{
+        background-color:$colorElegidoUno;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        list-style: none;
+        font-size: 15px;
+    } 
+}

@@ -1,0 +1,11 @@
+//IMPORTS
+//Cada resolucion tiene su main donde se llama a definir los parametros de cada 
+//html dentro de la resolucion
+//En general se encuentran todos los parametros usados en todos los html y resoluciones
+@import "general/general";
+//En mainMovil se llama a los parametros para la resolucion de movil 320px
+@import "mediaMovil/mainMovil";
+//En mainTablet se llaman los parametros para la resolucion de tablet 600px
+@import "mediaTablet/mainTablet";
+//En mainPc se llama a los parametros para la resolucion de desktop 1024px
+@import "mediaPc/mainPc";

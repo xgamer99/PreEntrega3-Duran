@@ -1,0 +1,31 @@
+/*Movil first*/
+//Import mixin
+@import "../base/mixin";
+@media screen and (min-width:1024px) {
+    //IMPORT para pantallas de desktop 1024px
+    /*index pc*/
+    @import "indexPc";
+    /*aviso pc*/
+    @import "avisoPc";
+    /*contacto pc*/
+    @import "contactoPc";
+    /*Parametro general de tablet*/
+    //CSS
+    header{
+        .logo{
+            img{
+                height: 20%;
+                width: 20%;
+            }
+        }
+    }
+    footer{ 
+        ul{
+            padding: 10px;
+            border-radius: 2rem;
+            color: white;
+            @include flex(space-between);
+            font-size: 15px;
+        }
+    }
+}

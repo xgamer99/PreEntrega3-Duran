@@ -1,0 +1,22 @@
+@import "../base/mixin";
+//CSS
+.lista{
+    @include flex(center);
+    .card{
+        background-color:rgba(77, 74, 74, 0.829);
+        margin-left: 10px;
+        width: 15rem;
+        img{
+            transition: 1s all;
+        }
+        ul{
+            li{
+                text-align: left;
+            }
+        }
+    }
+}
+.cubeImg:hover{
+    transform: scale(1.15);
+    transition: 1s all;
+}

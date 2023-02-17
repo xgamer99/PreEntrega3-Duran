@@ -1,0 +1,30 @@
+/*Movil first*/
+@media screen and (min-width:600px) {
+    //IMPORT para pantallas de tablet 600px
+    /*index tablet*/
+    @import "indexT";
+    /*aviso tablet*/
+    @import "avisoT";
+    /*contacto tablet*/
+    @import "contactoT";
+    /*Parametro general de tablet*/
+    //CSS
+    header{
+        .logo{
+            img{
+                height: 40%;
+                width: 40%;
+            }
+        }
+    }
+}
+/*BreakPoint 750px el fondo no se ajusta a la pantalla en los html items rango, entonces defino un tamaño al contenedor para que el fondo se ajuste*/
+@media screen and (min-width:750px) {
+    /*items-rangos tablet*/
+    .mainItemsRangos{
+        height: 81vh;
+        .card{
+            margin-top: 5rem;
+        }
+    }
+}

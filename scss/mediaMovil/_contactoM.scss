@@ -1,0 +1,30 @@
+//Import
+@import "../base/mixin";
+//CSS
+.contenedorMainContacto{
+    height: 80vh;
+}
+.redes{
+    div{
+        .lista{
+            @include flex(space-around);
+            margin-top: 35px;
+            li{
+                button{
+                    border: none;
+                    background: none;
+                    img{
+                        transition: 1s all;
+                    }
+                    .yt{
+                        padding-top: .7rem;
+                    }
+                }
+            }
+        }
+    }
+}
+.imgContacto:hover{
+    transform: scale(1.5);
+    transition: 1s all;
+}
